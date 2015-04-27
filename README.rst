@@ -26,6 +26,14 @@ You can use Markdown2PDF via simple command ``md2pdf``:
 
     md2pdf resume.md
 
+You can also appoint a theme by argument ``--theme``:
+
+.. code-block:: shell
+
+    md2pdf resume.md --theme=github
+
+By now, GitHub flavoured theme is the only supported.
+
 
 Trouble shooting
 ----------------
