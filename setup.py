@@ -12,7 +12,7 @@ from setuptools import setup
 
 setup(
     name='Markdown2PDF',
-    version='0.1',
+    version='0.1.2',
     url='https://github.com/kxxoling/markdown2pdf',
     license='MIT',
     author='Kane Blueriver',
