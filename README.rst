@@ -32,6 +32,12 @@ You can also appoint a theme by argument ``--theme``:
 
     md2pdf resume.md --theme=github
 
+Or, you can even using your self defined theme:
+
+.. code-block:: shell
+
+    md2pdf resume.md --theme=path_to_style.css
+
 By now, GitHub flavoured theme is the only supported.
 
 
