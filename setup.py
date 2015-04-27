@@ -17,7 +17,7 @@ setup(
     license='MIT',
     author='Kane Blueriver',
     author_email='kxxoling@gmail.com',
-    description='A tool convert Markdown file to PDF, '
+    description='A tool converts Markdown file to PDF, '
                 'originally designed for developers\' resume release.',
     long_description=__doc__,
     packages=['markdown2pdf'],
