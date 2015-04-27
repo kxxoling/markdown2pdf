@@ -38,7 +38,13 @@ Or, you can even using your self defined theme:
 
     md2pdf resume.md --theme=path_to_style.css
 
-By now, GitHub flavoured theme is the only supported.
+By now, Markdown2PDF contains multi builtin themes:
+
+* github (from GitHub.Inc)
+
+* solarized-dark (from mixu/markdown-styles)
+
+* ghostwriter (from mixu/markdown-styles)
 
 
 Trouble shooting
