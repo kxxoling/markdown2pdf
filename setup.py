@@ -1,25 +1,21 @@
-"""
-Markdown to PDF converter
--------------------------
-
-Links
-`````
-
-* `GitHub <https://github.com/kxxoling/markdown2pdf>`_
-"""
 from setuptools import setup
+
+
+def fread(filepath):
+    with open(filepath, 'r') as f:
+        return f.read()
 
 
 setup(
     name='Markdown2PDF',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/kxxoling/markdown2pdf',
     license='MIT',
     author='Kane Blueriver',
     author_email='kxxoling@gmail.com',
     description='A tool converts Markdown file to PDF, '
                 'originally designed for developers\' resume release.',
-    long_description=__doc__,
+    long_description=fread('README.rst'),
     packages=['markdown2pdf'],
     zip_safe=False,
     platforms='any',
