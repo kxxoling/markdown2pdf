@@ -55,3 +55,8 @@ Trouble shooting
 .. code-block:: shell
 
     apt-get install libffi-dev
+
+2. ``OSError: library not found: 'libcairo.so.2'``
+
+This means you need to get some requirements installed first, see this page:
+[WeasyPrint fails with error on OSX](https://github.com/Kozea/WeasyPrint/issues/79).
