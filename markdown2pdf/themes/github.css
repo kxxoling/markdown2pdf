@@ -841,6 +841,10 @@ span.bash-output {
   margin: 0px;
 }
 
+li li {
+	margin-left: 2em;
+}
+
 /* @end */
 
 /****************************/
