@@ -9,7 +9,7 @@ from markdown2 import markdown_path
 def convert_md_2_pdf(filename, output=None, theme=None):
     html = markdown_path(filename)
     if not output:
-        output = '.'.join([filename.rsplit('.')[0], 'pdf'])
+        output = '.'.join([filename.rsplit('.', 1)[0], 'pdf'])
 
     if theme is not None:
         BASE_DIR = os.path.abspath(os.path.dirname(__file__))
