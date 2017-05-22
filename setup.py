@@ -17,6 +17,7 @@ setup(
                 'originally designed for developers\' resume release.',
     long_description=fread('README.rst'),
     packages=['markdown2pdf'],
+    package_data={'markdown2pdf': ['themes/*']},
     zip_safe=False,
     platforms='any',
     install_requires=[
