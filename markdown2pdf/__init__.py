@@ -17,7 +17,7 @@ def convert_md_2_pdf(filename, output=None, theme=None):
         if not os.path.exists(css_file):
             css_file = os.path.join(BASE_DIR, 'themes/'+theme+'.css')
 
-        print css_file
+        print(css_file)
         HTML(string=html).write_pdf(output, stylesheets=[css_file])
     else:
         HTML(string=html).write_pdf(output)
